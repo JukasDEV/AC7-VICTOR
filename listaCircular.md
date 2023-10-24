@@ -22,7 +22,7 @@ func ExibirListaCircular(listaCircular *No) {
     johnLennon := listaCircular
     for {
         fmt.Println(johnLennon.valor)
-        noAtual = noAtual.proximo
+        johnLennon = johnLennon.proximo
         if johnLennon == listaCircular {
             break
         }
